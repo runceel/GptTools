@@ -1,0 +1,17 @@
+@inherits LayoutComponentBase
+
+<FluentMainLayout NavMenuTitle="Navigation menu">
+    <Header><h3>Fluent UI Components</h3></Header>
+    <SubHeader><p>A subheader here</p></SubHeader>
+    <Body>
+        @Body
+    </Body>
+    <NavMenuContent>
+        <FluentNavLink Href="/" Text="Home">Home</FluentNavLink>
+    </NavMenuContent>
+</FluentMainLayout>
+
+<FluentToastProvider />
+<FluentDialogProvider />
+<FluentTooltipProvider />
+<FluentMessageBarProvider />
